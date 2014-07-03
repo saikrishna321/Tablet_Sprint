@@ -6,7 +6,7 @@ Feature: Filter PLP
 
     Given I see the home page
     And I navigate to shop PLP
-    Then I see different "<filter_name>"
+    Then I see filters "<filter_name>"
 
   Examples:
 
