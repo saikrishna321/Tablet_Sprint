@@ -1,1 +1,2 @@
-Smoothie Tablet Sprint
+Smoothie Tablet Sprint 
+Tools:Calabash-android
