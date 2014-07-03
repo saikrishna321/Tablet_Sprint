@@ -23,3 +23,4 @@ Feature: Search mode and result header UI
     | Special offers   |
     | My orders        |
 
+
