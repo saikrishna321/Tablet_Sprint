@@ -15,3 +15,6 @@ Feature: Filter PLP
     | SPECIAL OFFERS |
     | NEW OFFERS     |
     | FAVOURITES     |
+
+    Scenario:
+      Given

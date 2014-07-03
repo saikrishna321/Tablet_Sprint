@@ -116,4 +116,6 @@ class PLP_Navigation < Calabash::ABase
 		assert_equal true, element_present
 
 	end
+
 end
+
