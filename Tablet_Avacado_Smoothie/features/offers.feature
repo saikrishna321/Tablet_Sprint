@@ -1,5 +1,6 @@
 @offer_list
 Feature: As a user, navigate to offer list page
+
   @Offer_list_shop
   Scenario: As a user I navigate to offer list page from shop page
 
@@ -32,8 +33,8 @@ Feature: As a user, navigate to offer list page
     Then I navigate back to home screen
 
   Examples:
-    |SpecialOffer |
-    |Top offers    |
+    | SpecialOffer |
+    | Top offers   |
 #    |Half price    |
 #    |Buy 1 Get 1 Free |
 
