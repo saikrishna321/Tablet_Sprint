@@ -1,0 +1,50 @@
+query "* id:'LoadingProgress'"
+query "* id:'LoadingProgress'"
+query "* id:'LoadingProgress'"
+query "* id:'LoadingProgress'"
+query "* marked:'Checkout'"
+query "* marked:'Checkout'",:text
+query "* marked:'Checkout'",:text.first
+query "* marked:'Make changes'",:text
+query "* marked:'Make changes'"
+query "*",:id
+exit
+start_test_server_in_background
+query "*",:id
+query "* marked:'GUIDE PRICE'"
+query "* marked:'checkout'"
+query "* marked:'Checkout'"
+query "* id:'dashboard_context_card_title_text'"
+start_test_server_in_background
+query "* id:'dashboard_context_card_title_text'"
+query "* marked:'Make changes'"
+query "* id:'dashboard_context_card_button_1'"
+query "* id:'dashboard_context_card_button_1'"
+query "* marked:'Continue'"
+query "* marked:'Checkout'"
+start_test_server_in_background
+query "* marked:'Shop all groceries'"
+query "* marked:'Fresh Food'"
+query "* marked:'Add'"
+query "* marked:'Rainham'"
+start_test_server_in_background
+query "* marked:'Rainham'"
+query "* marked:'collection_point_address'",:text
+start_test_server_in_background
+performAction("scroll_down")
+performAction("scroll_down")
+exit
+reinstall_apps
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query "*"
+query "*",:id
+reinstall_apps
+reinstall_apps
+reinstall_apps
+start_test_server_in_background
+exit

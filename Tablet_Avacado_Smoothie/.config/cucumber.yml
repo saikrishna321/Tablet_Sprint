@@ -1,0 +1,7 @@
+android: RESET_BETWEEN_SCENARIOS=1 PLATFORM=android -r features/support -r features/android/support -r features/android/helpers -r features/step_definitions -r features/android/pages/ 
+
+iPad: PLATFORM=iPad -r features/support -r features/iPad/support -r features/iPad/helpers -r features/step_definitions -r features/iPad/pages 
+
+iPhone: PLATFORM=iPhone -r features/support -r features/iPhone/support -r features/iPhone/helpers -r features/step_definitions -r features/iPhone/pages 
+
+#--format json -o cucumber.json
