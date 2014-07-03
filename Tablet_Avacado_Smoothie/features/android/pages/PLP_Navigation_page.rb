@@ -106,8 +106,6 @@ class PLP_Navigation < Calabash::ABase
 
 	end
 
-<<<<<<< HEAD
-=======
 
 
 	def validation_query(validation_msg)
@@ -118,5 +116,5 @@ class PLP_Navigation < Calabash::ABase
 		assert_equal true, element_present
 
 	end
->>>>>>> c29ecae9de370f5b342ee1393524335846f09fc1
+
 end
