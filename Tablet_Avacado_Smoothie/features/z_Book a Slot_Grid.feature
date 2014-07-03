@@ -51,7 +51,6 @@ Feature: Book a Slot
     Then I proceed to checkout
 
 
-
   @book_a_slot
 
   Scenario Outline: As a user , i want to do validation on book a slot page
@@ -75,15 +74,15 @@ Feature: Book a Slot
     Then I see the home page
 
   Examples:
-  |slot_type      |
-  |Click & collect|
-  |Home Delivery  |
+    | slot_type       |
+    | Click & collect |
+    | Home Delivery   |
 
 
-@tfs_29473 @sprint_02 @default_view
+  @tfs_29473 @sprint_02 @default_view
 
-Scenario: Customer with slot already booked, defaults to that method
-## Prerequisite - No slot should be reserved before , so that script can validate dafault view
+  Scenario: Customer with slot already booked, defaults to that method
+  ## Prerequisite - No slot should be reserved before , so that script can validate dafault view
     Given I see the home page
     When I open the left hand navigation
     And I choose "Book a slot" from the left hand navigation
