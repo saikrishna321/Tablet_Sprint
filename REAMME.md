@@ -1,1 +1,0 @@
-Smoothie Tablet Sprint
