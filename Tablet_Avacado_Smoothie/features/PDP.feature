@@ -34,8 +34,8 @@ Feature: As a user, navigate to item PDP and validate the PDP
 
 
   Examples:
-    |SpecialOffer     |
-    |Top offers       |
+    | SpecialOffer |
+    | Top offers   |
 #    |Half price       |
 #    |Buy 1 Get 1 Free |
 

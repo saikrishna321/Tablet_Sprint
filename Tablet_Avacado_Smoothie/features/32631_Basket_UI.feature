@@ -13,12 +13,12 @@ Feature: As a user , i want to access PLPs
 
 
   Examples:
-    | page name    |
-    | Shop         |
-    | Search       |
-#    |My favourites    |
-#    |My usuals        |
-#    |MY RECENT ORDERS |
-#    |Top offers       |
-    | Half price   |
-    | Buy1get1free |
+    | page name        |
+    | Shop             |
+    | Search           |
+    | My favourites    |
+    | My usuals        |
+    | MY RECENT ORDERS |
+    | Top offers       |
+    | Half price       |
+    | Buy1get1free     |

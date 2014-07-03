@@ -3,4 +3,4 @@ source "https://rubygems.org"
 gem "rake"
 gem "pry"
 gem "calabash-cucumber"
-gem 'calabash-android','0.4.24.tesco1'
+gem 'calabash-android', '0.4.24.tesco1'

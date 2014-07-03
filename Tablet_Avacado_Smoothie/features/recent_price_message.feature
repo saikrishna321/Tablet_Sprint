@@ -14,6 +14,6 @@ Feature: To verify Recent order Price Message
     Then I validate scroll off
 
   Examples:
-    |  page name            | sub title      |
-    |  Favourites & usuals  | My Recent order|
-    |  My orders            | Previous order |
+    | page name           | sub title       |
+    | Favourites & usuals | My Recent order |
+    | My orders           | Previous order  |
