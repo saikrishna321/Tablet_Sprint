@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="ruby-2.0.0-p451" project-jdk-type="RUBY_SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="ruby-2.0.0-p247" project-jdk-type="RUBY_SDK" />
+>>>>>>> 8e7cc35e1f622bb39dfcf30585a5cdcef5d1f703
 </project>
 
