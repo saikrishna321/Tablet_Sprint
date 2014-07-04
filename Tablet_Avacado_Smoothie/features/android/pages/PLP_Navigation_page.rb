@@ -16,6 +16,7 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_elements_exist [$shop_button_id]
 				puts "I am on home screen"
 				wait_for_elements_exist [$search_icon_id]
+				puts "I am on Home0 screen"
 
 			when "Shop"
 				wait_for_animate_3sec
@@ -29,6 +30,7 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_elements_exist [grid_items]
 				touch(grid_items)
 				wait_for_elements_exist ["* id:'filter_by'"], timeout: 30
+				puts "I am on shop all screen"
 
 			when "Search"
 
@@ -52,6 +54,7 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_elements_exist ["* marked:'My favourites'"], timeout: 30
 				touch("* marked:'My favourites'")
 				wait_for_element($filter_by, 30)
+				puts "I am on My favourite screen"
 
 			when "My usuals"
 
@@ -62,7 +65,17 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_none_animating
 				wait_for_elements_exist ["* marked:'My usuals'"], timeout: 30
 				touch("* marked:'usuals_layout_option'")
-				wait_for_element($filter_by, 30)
+				wait_for_element($filter_by, 30
+				puts "I am on My usuals screen"
+
+			when "Special Offers"
+				wait_for_elements_exist [$lhn_navigation], timeout: 30
+				touch_element($lhn_navigation)
+				wait_for_elements_exist [$lhn_special_offers], timeout: 30
+				touch_element($lhn_special_offers)
+				wait_for_elements_exist [$special_offer_header], timeout: 30
+				puts "I am on Special offers screen"
+
 
 			when "MY RECENT ORDERS"
 
@@ -74,6 +87,17 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_elements_exist ["* marked:'MY RECENT ORDERS'"], timeout: 30
 				touch("* id:'order_date'")
 				wait_for_element($filter_by, 30)
+				puts "I am on My recent orders screen"
+
+			when "My orders "
+
+				wait_for_elements_exist [$lhn_navigation], timeout: 30
+				touch_element($lhn_navigation)
+				wait_for_elements_exist [$lhn_my_orders], timeout: 30
+				touch_element($lhn_my_orders)
+				wait_for_elements_exist [$my_order_header], timeout: 30
+				puts "I am on My orders screen"
+
 
 			when "Top offers"
 				query_string = "* id:'dashboard_offers_topoffers_link'"
