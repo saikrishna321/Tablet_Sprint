@@ -95,5 +95,17 @@ module Common_id
 	$done_btn="done_btn"
 	$addr_info="address_info"
 
+	#-----LHN Navigation--------------
+	$lhn_navigation= "action_bar_up_navigation"
+	$lhn_special_offers= "Special Offers"
+	$lhn_my_orders= "My orders"
+
+	#-----Special Offers--------------
+	$special_offer_header= "Special Offers"
+
+	#-----My orders--------------
+	$my_order_header= "My orders"
+
+
 
 end
