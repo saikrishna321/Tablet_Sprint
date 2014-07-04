@@ -12,6 +12,11 @@ class PLP_Navigation < Calabash::ABase
 
 		case page_name
 
+			when "Home"
+				wait_for_elements_exist [$shop_button_id]
+				puts "I am on home screen"
+				wait_for_elements_exist [$search_icon_id]
+
 			when "Shop"
 				wait_for_animate_3sec
 				shop_all_groceries_btn = "* id:'shop_btn'"
