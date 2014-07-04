@@ -65,7 +65,7 @@ class PLP_Navigation < Calabash::ABase
 				wait_for_none_animating
 				wait_for_elements_exist ["* marked:'My usuals'"], timeout: 30
 				touch("* marked:'usuals_layout_option'")
-				wait_for_element($filter_by, 30
+				wait_for_element($filter_by, 30)
 				puts "I am on My usuals screen"
 
 			when "Special Offers"
