@@ -99,6 +99,7 @@ module Common_id
 	$lhn_navigation= "action_bar_up_navigation"
 	$lhn_special_offers= "Special Offers"
 	$lhn_my_orders= "My orders"
+	$lhn_Book_slot= "Book a Slot"
 
 	#-----Special Offers--------------
 	$special_offer_header= "Special Offers"
