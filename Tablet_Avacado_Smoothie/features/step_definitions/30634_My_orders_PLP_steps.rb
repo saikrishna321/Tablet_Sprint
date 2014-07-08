@@ -9,8 +9,15 @@ When (/^I tap on "(.*?)" from LHN$/ do |navigation_item|
 	@current_page.choose_navigation(navigation_item)
 end
 
+Then (/^the first order must be in the selected state$/) do
+
+end
+
+And (/^I verify Cancel order and Make changes button are repositioned$/) do
+
+end
 
 And (/^tapping on Pending order from LHN should not display Add or remove component$/) do
-	@current_page = page ()
-
+	@current_page = page (PLP_My_Order).await timeout: 30
+	@current_page.validateAddRemove
 end
