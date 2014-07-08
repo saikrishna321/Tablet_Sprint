@@ -13,11 +13,17 @@ Then (/^the first order must be in the selected state$/) do
 
 end
 
-And (/^I verify Cancel order and Make changes button are repositioned$/) do
-
-end
 
 And (/^tapping on Pending order from LHN should not display Add or remove component$/) do
 	@current_page = page (PLP_My_Order).await timeout: 30
-	@current_page.validateAddRemove
+	@current_page.validate_add_remove
+
+
+end
+
+And (/^I verify Cancel order and Make changes button are repositioned$/) do
+
+	@current_page = page (PLP_My_Order).await timeout: 30
+	@current_page.validate_ammend_button
+
 end

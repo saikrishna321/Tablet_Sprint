@@ -6,5 +6,5 @@ Feature: As a user i want to verify if the PLP screen without Add/Remove buttons
     Given I see the home page
     When I tap on "My orders" from LHN
     Then the first order must be in the selected state
-    And I verify Cancel order and Make changes button are repositioned
     And tapping on Pending order from LHN should not display Add or remove component
+    And I verify Cancel order and Make changes button are repositioned
