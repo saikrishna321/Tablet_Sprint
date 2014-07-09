@@ -10,4 +10,4 @@ Feature: Navigate between different weeks slot
 
     When I tap on Click & Collect
     And I select Collection point
-    Then I see three weeks slots on tapping relevant week
+    Then I see three weeks slots on tapping relevant week.
