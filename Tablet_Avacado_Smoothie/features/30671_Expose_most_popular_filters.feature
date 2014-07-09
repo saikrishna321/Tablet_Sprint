@@ -54,5 +54,7 @@ Feature: Filter PLP
     And I choose "Favourites" from the left hand navigation
     Then I am on the favourites hub
 
+
     When I select "My Recent Orders" from the Favourites page
     Then I see filters
+
